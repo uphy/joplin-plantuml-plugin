@@ -6,7 +6,7 @@
 	"name": "PlantUML",
 	"description": "Markdown extension plugin to render PlantUML diagrams.",
 	"author": "uphy",
-	"homepage_url": "",
+	"homepage_url": "https://github.com/uphy/joplin-plantuml-plugin",
 	"repository_url": "https://github.com/uphy/joplin-plantuml-plugin",
 	"keywords": []
 }

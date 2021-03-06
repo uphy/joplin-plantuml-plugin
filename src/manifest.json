@@ -1,0 +1,12 @@
+{
+	"manifest_version": 1,
+	"id": "com.github.uphy.PlantUmlPlugin",
+	"app_min_version": "1.7",
+	"version": "1.0.0",
+	"name": "PlantUML",
+	"description": "Markdown extension plugin enables to render PlantUML drawings",
+	"author": "Yuhi Ishikura",
+	"homepage_url": "",
+	"repository_url": "https://github.com/uphy/joplin-plantuml-plugin",
+	"keywords": []
+}

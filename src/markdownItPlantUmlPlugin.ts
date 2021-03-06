@@ -4,8 +4,8 @@ export default function (context) {
             const markdownItPlantUml = require('markdown-it-plantuml');
             markdownIt.use(markdownItPlantUml, {
                 // How can I refer settings from here?
-                openMarker: '@startuml',
-                closeMarker: '@enduml',
+                openMarker: '```plantuml',
+                closeMarker: '```',
             });
         }
     }

@@ -1,3 +1,6 @@
 {
-	"extraScripts": ["markdownItPlantUmlPlugin.ts"]
+	"extraScripts": [
+		"markdownItPlantUmlPlugin.ts",
+		"codeMirrorPlantUmlPlugin.ts"
+	]
 }

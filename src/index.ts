@@ -10,5 +10,10 @@ joplin.plugins.register({
 			contentScriptId,
 			'./markdownItPlantUmlPlugin.js'
 		);
+		await joplin.contentScripts.register(
+			ContentScriptType.CodeMirrorPlugin,
+			contentScriptId,
+			'./codeMirrorPlantUmlPlugin.js'
+		);
 	},
 });

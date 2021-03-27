@@ -223,7 +223,7 @@ export function defineMode(CodeMirror) {
                     }
                     if (stream.match(/\}/)) {
                         state.name = state.state_stack.pop();
-                        if (!state) state.name = "base";
+                        if (!state.name) state.name = "base";
                         return "bracket";
                     }
                 } else if (state.name === "title") {
